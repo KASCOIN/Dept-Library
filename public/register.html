@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Account</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Create Account</h2>
+
+    <input id="matric" placeholder="Matric Number">
+    <input id="email" placeholder="Email">
+    <input id="username" placeholder="Username">
+
+    <select id="department">
+        <option value="">Select Department</option>
+        <option value="Geography">Geography</option>
+        <option value="Geography Education">Geography Education</option>
+        <option value="Meteorology">Meteorology</option>
+    </select>
+
+    <select id="level">
+        <option value="">Select Level</option>
+        <option value="100">100</option>
+        <option value="200">200</option>
+        <option value="300">300</option>
+        <option value="400">400</option>
+    </select>
+
+    <input id="password" type="password" placeholder="Password">
+
+    <button onclick="register()">Create Account</button>
+    <div id="error" class="error"></div>
+</div>
+
+<script src="js/auth.js"></script>
+</body>
+</html>
